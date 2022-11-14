@@ -1,11 +1,104 @@
-@font-face {
-    font-family: 'dragon';
-    src: url('https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/Dragon%20FREE.otf?v=1668387472353') format('opentype'),
-         local('Dragon FREE') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.cdnfonts.com/css/dragon-free');
 
 html {
-    color: white;
+    color: rgb(237, 223, 202)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    padding-top: 25px;
+}
+
+main {
+    background-color: rgb(14,10,12);
+    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/dragon.jpg?v=1668396810263);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    position: relative;
+    top: 13vh;
+    min-height: 87vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    width: 60vw;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.903);
+    text-shadow: 2px 2px 3px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 30px;
+    line-height: 1.5;
+    font-family: Arial;
+    border-radius: 10px;
+    border: 5px ridge rgb(240, 107, 84);
+}
+
+.section h2 {
+    text-shadow: 5px 5px 3px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 35px 0 30px 0;
+    font-size: 1.9em;
+    color: rgb(240, 107, 84);
+}
+
+.section p {
+    margin: 20px 0 0 0;
+    font-size: 1.3em;
+    width: 50vw;
+}
+
+.section>div * {
+    text-align: center;
+}
+
+nav {
+    height: 14vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header>div+div {
+    width: 40%;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header>div>a {
+    font-size: 2em;
+    margin-right: 70px;
+    text-decoration: none;
+    text-shadow: 5px 5px 3px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header>div>a:hover {
+    color: rgb(226, 122, 43);
+}
+
+nav img {
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    top: 1.7vw;
+    left: 1vw;
+    z-index: 2;
+    border-radius: 130px;
+    border: 5px ridge rgb(244, 174, 45);
+}
+
+main a {
+    color:rgb(231, 191, 112);
+    text-decoration: none;
 }
