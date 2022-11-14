@@ -18,7 +18,7 @@ iframe {
 main {
     background-color: rgb(16, 13, 13);
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/dragon.jpg?v=1668396810263);
-    background-position: top;
+    background-position: center;
     background-repeat: repeat-y;
     background-size: 100% 100%;
     position: relative;
@@ -115,14 +115,27 @@ main a {
 
 .devs p {
     padding: 10px;
-    position: relative;
-    left: 1.5vw;
-    width: 80%;
+    width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+    .devs {
+        flex-direction: column;
+    }
+}
+
+.devs div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    padding: 40px;
 }
 
 .devs img {
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
 }
 
 iframe {
