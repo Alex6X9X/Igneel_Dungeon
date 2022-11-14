@@ -80,3 +80,22 @@
     font-size: 25px;
 }
 
+.downloadBtn {
+    margin-top: 15px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(69, 67, 67);
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(79, 76, 76);
+    text-decoration: none;
+    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/download_button.jpeg?v=1668444945673);
+    background-color: #999;
+    width: 200px;
+    padding: 20px;    
+}
+
