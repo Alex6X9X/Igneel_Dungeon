@@ -99,3 +99,12 @@
     padding: 20px;    
 }
 
+.equipementImg {
+    background-color: white;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 5.5px;
+}
+
