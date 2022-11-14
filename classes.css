@@ -20,7 +20,7 @@
     image-rendering: -webkit-optimize-contrast;
 }
 
-
+/*
 .home {
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/dragon_eye.jpg?v=1668393982032);
     background-repeat:no-repeat;
@@ -29,7 +29,7 @@
     height: 100%;
     width: 100%;
 }
-
+*/
 .section {
     width: 80vw;
     background-color: rgba(67, 17, 82, 0.05);
@@ -108,3 +108,37 @@
     top: 5.5px;
 }
 
+.devs {
+    display: flex;
+}
+
+.devImg {
+    flex: 33.33%;
+    padding: 5px;
+    width: 20%;
+    height: 20%;
+}
+
+.footer {
+    background-color: white;
+    border-radius: 7px;
+    padding: 4px;
+    color: white;
+    height: 100%;
+    width: 99%;
+    background-size: 100% 100%;
+    display: flex;
+    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/header.jpg?v=1668397654489);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 4px ridge #999;
+}
+
+.supervisorBox {
+    padding: 15px;
+}
+
+.linearGradient-animated {
+
+}
