@@ -1,10 +1,9 @@
-body {
-    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/main_photo.jpg?v=1668287972097);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height: 100%;
-    width: 100%;
+@font-face {
+    font-family: 'dragon';
+    src: url('https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/Dragon%20FREE.otf?v=1668387472353') format('opentype'),
+         local('Dragon FREE') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
