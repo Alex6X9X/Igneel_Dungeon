@@ -128,10 +128,10 @@
 .linearGradient-animated {
     margin-top: 10px;
     height: 15px;
-    width: 400vw;
+    width: 100%;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
-    position: relative;
+    position: static;
     top: -0.5vh;
     background-image: linear-gradient(to right, rgb(211, 152, 24),red,orange, red,rgb(211, 152, 24),red,orange,red,rgb(211, 152, 24));
     animation-name: linearGradient;
