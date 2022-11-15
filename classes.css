@@ -1,16 +1,16 @@
 .logo {
     border-radius: 130px;
-    width: 7%;
-    height: 7%;
+    width: 100%;
+    height: 100%;
 }
 
 .header {
     background-color: rgb(240, 107, 84);
     height: 100%;
-    background-size: 100% 100%;
+    width: 100%;
+    background-size: 30% 30%;
     display: flex;
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/header.jpg?v=1668397654489);
-    
 }
 
 .background-cover{    
@@ -70,14 +70,8 @@
     height: 100%;
 }
 
-.div-section {
-    width: 100%;
-    height: 100%;
-    padding-left: 6%;
-}
-
 .title {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .downloadBtn {
@@ -117,8 +111,8 @@
 .devImg {
     flex: 33.33%;
     padding: 5px;
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
@@ -142,5 +136,21 @@
 }
 
 .linearGradient-animated {
+    margin-top: 10px;
+    height: 15px;
+    width: 800vw;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: -0.5vh;
+    background-image: linear-gradient(to right, rgb(211, 152, 24),red,orange, red,rgb(211, 152, 24),red,orange,red,rgb(211, 152, 24));
+    animation-name: linearGradient;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes linearGradient {
+    from {right:0vw}
+    to {right:200vw}
 }

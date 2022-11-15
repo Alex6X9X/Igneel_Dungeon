@@ -1,4 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/dragon-free');
+* {
+    box-sizing: border-box;
+}
+
 
 html {
     color: rgb(237, 223, 202);
@@ -28,6 +32,21 @@ main {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
+
+.header div {
+    padding-left: 10px; 
+    width: 100%;
+    display: flex;
+}
+
+.gameLogo>div {
+    width: 198px;
+}
+
+.gameLogo>img {
+    position: relative;
+    top: 4vh;
 }
 
 p {
@@ -69,7 +88,7 @@ nav {
 }
 
 .header>div+div {
-    width: 40%;
+    width: 100%;
 }
 
 .header>div {
@@ -92,12 +111,24 @@ nav {
 nav img {
     width: 8vw;
     height: 8vw;
-    position: relative;
-    top: 1.7vw;
-    left: 1vw;
+    margin: 10px;
     z-index: 2;
     border-radius: 130px;
     border: 5px ridge rgb(244, 174, 45);
+}
+
+.header>div {
+    width: 40%;
+}
+
+.header>div+div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav>div a {
+    width: 7vw;
 }
 
 main a {
@@ -113,16 +144,22 @@ main a {
   transform: translateY(4px);
 }
 
-.devs p {
-    padding: 10px;
-    width: 70%;
-}
 
-@media only screen and (max-width: 800px) {
-    .devs {
+@media screen and (max-width: 600px) {
+    .devs, .header {
         flex-direction: column;
+        display: block;
     }
 }
+
+@media screen and (max-width: 1100px) {
+    iframe {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 
 .devs div {
     display: flex;
@@ -133,9 +170,9 @@ main a {
     padding: 40px;
 }
 
-.devs img {
-    width: 40%;
-    height: 40%;
+.devs p {
+    height: 100%;
+    padding: 10px;
 }
 
 iframe {
@@ -143,4 +180,5 @@ iframe {
     padding: 0;
     margin-top: 15px;
 }
+
 
