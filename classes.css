@@ -154,3 +154,10 @@
     from {right:0vw}
     to {right:200vw}
 }
+
+.github-btn {
+    width: 10%; 
+    height: 10%;
+    position: relative;
+    top: 6px;
+}
