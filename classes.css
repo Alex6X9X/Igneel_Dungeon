@@ -20,16 +20,6 @@
     image-rendering: -webkit-optimize-contrast;
 }
 
-/*
-.home {
-    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/dragon_eye.jpg?v=1668393982032);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height: 100%;
-    width: 100%;
-}
-*/
 .section {
     width: 80vw;
     background-color: rgba(67, 17, 82, 0.05);
@@ -138,7 +128,7 @@
 .linearGradient-animated {
     margin-top: 10px;
     height: 15px;
-    width: 800vw;
+    width: 400vw;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
     position: relative;
