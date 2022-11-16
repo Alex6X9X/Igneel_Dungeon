@@ -102,7 +102,7 @@
     padding: 4px;
     color: white;
     height: 100%;
-    width: 99%;
+    width: 97vw;
     background-size: 100% auto;
     display: flex;
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/header.jpg?v=1668397654489);
@@ -118,7 +118,7 @@
 
 .linearGradient {
     height: 1vh;
-    width: 99.65%;
+    width: 99vw;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     top: -0.5vh;

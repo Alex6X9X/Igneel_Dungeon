@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 iframe {
@@ -28,6 +29,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow: auto;
     flex-direction: column;
 }
 
@@ -155,10 +157,6 @@ main a {
         display: block;
     }
 
-    main {
-        height: 120%;
-    }
-
     .header>div {
         flex-direction: column;
         margin-top: 5%;
@@ -195,8 +193,9 @@ main a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 45vw;
+    width: 30vw;
     padding: 40px;
+    height: auto;
 }
 
 .devs p {
