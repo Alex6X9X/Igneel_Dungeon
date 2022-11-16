@@ -205,7 +205,7 @@ main a {
 }
 
 iframe {
-    border: 4px ridge #666;
+    border: 0.8vh ridge #666;
     padding: 0;
     margin-top: 15px;
     object-fit: cover;
