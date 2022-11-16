@@ -93,7 +93,7 @@
 
 .devImg {
     height: auto;
-    display: block;
+    border-radius: 5px;
 }
 
 .footer {
