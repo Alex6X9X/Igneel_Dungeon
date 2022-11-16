@@ -125,29 +125,24 @@
     padding: 15px;
 }
 
-.linearGradient-animated {
-    margin-top: 10px;
+.linearGradient {
     height: 15px;
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     border-bottom: 2px solid black;
-    position: static;
     top: -0.5vh;
     background-image: linear-gradient(to right, rgb(211, 152, 24),red,orange, red,rgb(211, 152, 24),red,orange,red,rgb(211, 152, 24));
-    animation-name: linearGradient;
-    animation-timing-function: linear;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
-@keyframes linearGradient {
-    from {right:0vw}
-    to {right:200vw}
-}
 
 .github-btn {
     width: 10%; 
     height: 10%;
     position: relative;
     top: 6px;
+}
+
+
+.gifs {
+    border: 15px ridge grey;
 }
