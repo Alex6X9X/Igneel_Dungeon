@@ -70,7 +70,7 @@ p {
 .section p {
     margin: 20px 0 0 0;
     font-size: 1.3em;
-    width: 55vw;
+    width: 61vw;
     
 }
 
@@ -171,7 +171,7 @@ main a {
         height: 27vw;
         width: 27vw;
         position: relative;
-        top: -100px;
+        top: -101px;
         left: 60px;
     }
     .devs a {
