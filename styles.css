@@ -43,7 +43,7 @@ main {
 
 .gameLogo>img {
     position: relative;
-    top: 5vh;
+    top: 6vh;
 }
 
 p {
@@ -195,7 +195,7 @@ main a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 20vw;
+    width: 45vw;
     padding: 40px;
 }
 
