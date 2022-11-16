@@ -8,7 +8,7 @@
     background-color: rgb(240, 107, 84);
     height: 100%;
     width: 100%;
-    background-size: 30% 30%;
+    background-size: 100% auto;
     display: flex;
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/header.jpg?v=1668397654489);
 }
@@ -21,7 +21,7 @@
 }
 
 .section {
-    width: 80vw;
+    width: 90vw;
     background-color: rgba(67, 17, 82, 0.05);
     border-left: 7px ridge rgb(240, 107, 84);
     border-right: 7px ridge rgb(240, 107, 84);
@@ -30,16 +30,9 @@
     align-items: center;
     flex-direction: column;
     padding: 50px 50px 0 50px;
+    box-sizing: border-box;
 }
 
-.tutorial {
-    background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/dragon_eye.jpg?v=1668393982032);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height: 100%;
-    width: 100%;
-}
 
 .section-title {
     font-family: 'Dragon FREE', sans-serif;
@@ -99,10 +92,8 @@
 }
 
 .devImg {
-    flex: 33.33%;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
 }
 
 .footer {
@@ -112,7 +103,7 @@
     color: white;
     height: 100%;
     width: 99%;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     display: flex;
     background-image: url(https://cdn.glitch.global/bddb2b34-cf52-4e3c-a644-180ca5337dca/header.jpg?v=1668397654489);
     font-size: 20px;
@@ -126,20 +117,20 @@
 }
 
 .linearGradient {
-    height: 15px;
-    width: 100%;
+    height: 1vh;
+    width: 99.65%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     top: -0.5vh;
     background-image: linear-gradient(to right, rgb(211, 152, 24),red,orange, red,rgb(211, 152, 24),red,orange,red,rgb(211, 152, 24));
+    border-radius: 5px;
 }
 
 
 .github-btn {
-    width: 10%; 
-    height: 10%;
+    width: 10vh;
     position: relative;
-    top: 6px;
+    top: 0.9vh;
 }
 
 
